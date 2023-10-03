@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+    color: white;
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+img{
+    font-size: 16px;
+    width: 220px;
+    height: 90px;
+    margin-top: 12px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.content{
+   position: absolute;
+   left: 35%;
+   top:30px;
+   margin-top: 91px;
+   width: 450px;
+   height: 600px;
+   background: black;opacity: 75%;
+   border-radius: 4px;
+   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+   text-align: start;
+}
+
+h2{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.email{
+    margin-left: 60px;
+    width: 314px;
+    height: 50px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.password{
+    margin-left: 60px;
+    width: 314px;
+    height: 50px;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.button{
+    background-color: #e50914;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    width: 314px;
+    height: 50px;
+    border-radius: 4px;
+    outline: 0;
+    margin-left: 60px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.a{
+    text-align: start;
+    color: white;
+    font-size: 13px;
+    margin-left: 150px;
+}
+
+.checkbox{
+    margin-left: 60px;
+    font-size: 13px;
+}
+
+p{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.aa{
+    color: white;
+    margin-left: 60px;
+}
+
+.plp{
+    font-size: 13px;
+    margin-top: 13px;
+}
+
+span{
+    margin-top: 50px;
+}
+
